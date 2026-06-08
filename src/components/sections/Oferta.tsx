@@ -11,7 +11,7 @@ export default function Oferta() {
       </h2>
 
       {/* Slot de imagem da oferta (bundle workshop + Oráculo) — o cliente adiciona depois.
-          Trocar por <img src="/img/..."> quando a arte existir. */}
+          Trocar por <img src="img/..."> quando a arte existir. */}
       <div className="photo w-full max-w-narrow mx-auto aspect-video flex items-center justify-center text-center px-6 mb-7">
         <span className="text-muted-token text-[13px] leading-relaxed max-w-[360px]">
           <strong className="block text-accent-strong font-eyebrow text-[10px] tracking-[0.18em] mb-2">
@@ -76,7 +76,7 @@ export default function Oferta() {
       {/* Garantia */}
       <div className="text-center mt-12">
         <img
-          src="/img/selo_garantia_incondicional.png"
+          src="img/selo_garantia_incondicional.png"
           alt="Selo de garantia incondicional de 7 dias"
           className="block w-[140px] h-auto mx-auto mb-[18px]"
         />
