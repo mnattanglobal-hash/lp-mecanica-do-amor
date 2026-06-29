@@ -10,16 +10,11 @@ export default function Oferta() {
         Tudo que entra na Mecânica do Amor
       </h2>
 
-      {/* Slot de imagem da oferta (bundle workshop + Oráculo) — o cliente adiciona depois.
-          Trocar por <img src="img/..."> quando a arte existir. */}
-      <div className="photo w-full max-w-narrow mx-auto aspect-video flex items-center justify-center text-center px-6 mb-7">
-        <span className="text-muted-token text-[13px] leading-relaxed max-w-[360px]">
-          <strong className="block text-accent-strong font-eyebrow text-[10px] tracking-[0.18em] mb-2">
-            IMAGEM DA OFERTA (inserir)
-          </strong>
-          Bundle: o workshop completo + o Oráculo das Chaves juntos.
-        </span>
-      </div>
+      <img
+        src="img/oferta_bundle.jpg"
+        alt="O workshop completo A Mecânica do Amor + o Oráculo das Chaves Ascensionais"
+        className="block w-full max-w-narrow mx-auto h-auto mb-7"
+      />
 
       {/* Card único de oferta — sem duplicar preço */}
       <div
