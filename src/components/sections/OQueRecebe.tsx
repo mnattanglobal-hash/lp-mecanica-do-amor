@@ -59,16 +59,11 @@ export default function OQueRecebe() {
         quiser.
       </p>
 
-      {/* Placeholder do mockup do workshop — imagem em regeração (vídeo único, sem módulos, sem comunidade) */}
-      <div className="photo w-full max-w-[280px] mx-auto aspect-[9/16] max-h-[440px] flex items-center justify-center text-center px-6 my-6 mb-[30px]">
-        <span className="text-muted-token text-[13px] leading-relaxed max-w-[240px]">
-          <strong className="block text-accent-strong font-eyebrow text-[10px] tracking-[0.18em] mb-2">
-            MOCKUP DO WORKSHOP (em regeração)
-          </strong>
-          Tela do celular com o workshop completo (vídeo único). Sem lista de
-          módulos, sem aba de comunidade.
-        </span>
-      </div>
+      <img
+        src="img/mockup_workshop.png"
+        alt="O workshop A Mecânica do Amor no celular"
+        className="block w-full max-w-[300px] mx-auto h-auto my-6 mb-[30px]"
+      />
 
       <p className="text-center text-muted-token mb-[18px]">
         Dentro do workshop, você vê a engrenagem inteira do amor — do começo ao
@@ -94,7 +89,7 @@ export default function OQueRecebe() {
       <FlameDivider lineOnly className="mt-9 mb-6" />
 
       {/* Placeholder pra FOTO REAL do oráculo (baralho físico — Durga está terminando as cartas).
-          Trocar por <img src="img/..."> quando a foto existir. */}
+          Trocar por <img src="/img/..."> quando a foto existir. */}
       <div className="photo w-full aspect-video flex items-center justify-center text-center px-6 mb-6">
         <span className="text-muted-token text-[13px] leading-relaxed max-w-[360px]">
           <strong className="block text-accent-strong font-eyebrow text-[10px] tracking-[0.18em] mb-2">
