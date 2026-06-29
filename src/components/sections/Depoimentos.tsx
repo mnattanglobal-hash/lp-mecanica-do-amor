@@ -3,7 +3,7 @@ import FlameDivider from "../ui/FlameDivider";
 import AvatarPlaceholder from "../ui/AvatarPlaceholder";
 import Cta from "../ui/Cta";
 
-const depoimentos = [
+const depoimentos: { nome: string; texto: string; avatar?: string }[] = [
   {
     nome: "Sarah",
     texto:
@@ -16,11 +16,13 @@ const depoimentos = [
   },
   {
     nome: "Samanta",
+    avatar: "img/avatar_samanta.png",
     texto:
       "Eu era muito negativa e dura. Hoje tenho mais coerência. E veio a autorresponsabilidade: hoje eu sou 'a minha senhora', assumo as coisas comigo e com as pessoas, sem desculpinha. Pra mim essa virada foi central.",
   },
   {
     nome: "Bárbara",
+    avatar: "img/avatar_barbara.png",
     texto:
       "De fora parece algo muito esotérico, mas pra mim foi um processo muito terapêutico de me empoderar, de conseguir fazer uns movimentos que não passam pela vontade de mudar. A Escola é diferente pela coragem de dizer a verdade. Ela me incomodava, mas me lapidou.",
   },
@@ -45,7 +47,15 @@ export default function Depoimentos() {
               "{d.texto}"
             </p>
             <div className="flex items-center gap-3">
-              <AvatarPlaceholder name={d.nome} />
+              {d.avatar ? (
+                <img
+                  src={d.avatar}
+                  alt={d.nome}
+                  className="flex-none w-[46px] h-[46px] rounded-full object-cover border border-[color:var(--border)]"
+                />
+              ) : (
+                <AvatarPlaceholder name={d.nome} />
+              )}
               <span className="text-[14px] text-accent-strong font-semibold not-italic">
                 {d.nome}
                 <span className="block text-[12px] text-muted-token font-normal">
