@@ -71,7 +71,7 @@ export default function Oferta() {
       {/* Garantia */}
       <div className="text-center mt-12">
         <img
-          src="/img/selo_garantia_incondicional.png"
+          src="img/selo_garantia_incondicional.png"
           alt="Selo de garantia incondicional de 7 dias"
           className="block w-[140px] h-auto mx-auto mb-[18px]"
         />
