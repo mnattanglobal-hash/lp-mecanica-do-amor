@@ -11,9 +11,9 @@ export default function Oferta() {
       </h2>
 
       <img
-        src="img/oferta_bundle.jpg"
+        src="img/oferta_bundle.png"
         alt="O workshop completo A Mecânica do Amor + o Oráculo das Chaves Ascensionais"
-        className="block w-full max-w-narrow mx-auto h-auto mb-7"
+        className="block w-full h-auto mb-7"
       />
 
       {/* Card único de oferta — sem duplicar preço */}
@@ -71,7 +71,7 @@ export default function Oferta() {
       {/* Garantia */}
       <div className="text-center mt-12">
         <img
-          src="img/selo_garantia_incondicional.png"
+          src="/img/selo_garantia_incondicional.png"
           alt="Selo de garantia incondicional de 7 dias"
           className="block w-[140px] h-auto mx-auto mb-[18px]"
         />

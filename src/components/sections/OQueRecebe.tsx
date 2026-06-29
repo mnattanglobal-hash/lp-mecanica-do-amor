@@ -62,7 +62,7 @@ export default function OQueRecebe() {
       <img
         src="img/mockup_workshop.png"
         alt="O workshop A Mecânica do Amor no celular"
-        className="block w-full max-w-[300px] mx-auto h-auto my-6 mb-[30px]"
+        className="block w-full max-w-[440px] mx-auto h-auto my-6 mb-[30px]"
       />
 
       <p className="text-center text-muted-token mb-[18px]">
@@ -89,9 +89,9 @@ export default function OQueRecebe() {
       <FlameDivider lineOnly className="mt-9 mb-6" />
 
       <img
-        src="img/oraculo.jpg"
-        alt="As cartas do Oráculo das Chaves Ascensionais"
-        className="block w-full max-w-[560px] mx-auto h-auto mb-6"
+        src="img/oraculo.png"
+        alt="As cartas e a capa do Oráculo das Chaves Ascensionais"
+        className="block w-full h-auto mb-6"
       />
       <div className="card">
         <Eyebrow>Bônus de entrada</Eyebrow>
