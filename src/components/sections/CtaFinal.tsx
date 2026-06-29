@@ -1,5 +1,4 @@
 import FlameDivider from "../ui/FlameDivider";
-import DurgaPhoto from "../ui/DurgaPhoto";
 import Cta from "../ui/Cta";
 import Quote from "../ui/Quote";
 
@@ -18,10 +17,10 @@ export default function CtaFinal() {
           alt="Escola de Alquimia Ascensional"
           className="mx-auto h-auto w-[180px] sm:w-[200px] mb-7"
         />
-        <DurgaPhoto
-          tall
-          className="mt-2 mb-7 text-left"
-          description="Durga, mesmo enquadramento do hero ou variação, olhar direto. Fecho."
+        <img
+          src="img/casal_3.jpg"
+          alt="Durga e o companheiro, hoje"
+          className="block w-full h-auto rounded-md border border-bronze shadow-card mt-2 mb-7"
         />
         <h2 className="text-[clamp(28px,6vw,40px)] mb-[22px]">
           Você pode fechar essa página e continuar repetindo. Ou pode ver a

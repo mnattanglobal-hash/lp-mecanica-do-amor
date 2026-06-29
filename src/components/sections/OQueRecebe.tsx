@@ -89,7 +89,7 @@ export default function OQueRecebe() {
       <FlameDivider lineOnly className="mt-9 mb-6" />
 
       {/* Placeholder pra FOTO REAL do oráculo (baralho físico — Durga está terminando as cartas).
-          Trocar por <img src="/img/..."> quando a foto existir. */}
+          Trocar por <img src="img/..."> quando a foto existir. */}
       <div className="photo w-full aspect-video flex items-center justify-center text-center px-6 mb-6">
         <span className="text-muted-token text-[13px] leading-relaxed max-w-[360px]">
           <strong className="block text-accent-strong font-eyebrow text-[10px] tracking-[0.18em] mb-2">

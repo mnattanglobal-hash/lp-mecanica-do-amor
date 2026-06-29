@@ -1,6 +1,5 @@
 import Section from "../ui/Section";
 import Quote from "../ui/Quote";
-import DurgaPhoto from "../ui/DurgaPhoto";
 import Cta from "../ui/Cta";
 
 export default function Prova() {
@@ -9,10 +8,10 @@ export default function Prova() {
       <h2 className="text-[clamp(28px,6vw,40px)] text-center mb-[22px]">
         Quem está te falando isso já foi você.
       </h2>
-      <DurgaPhoto
-        tall
-        className="mt-2 mb-7"
-        description="Durga em contexto mais pessoal, talvez sentada, luz quente. Humana, não palco."
+      <img
+        src="img/casal_2.jpg"
+        alt="Durga e o companheiro"
+        className="block w-full h-auto rounded-md border border-[color:var(--border)] shadow-[var(--card-shadow)] mt-2 mb-7"
       />
       <p className="mb-[18px]">Eu não aprendi isso em livro. Eu aprendi caída no chão.</p>
       <Quote>
