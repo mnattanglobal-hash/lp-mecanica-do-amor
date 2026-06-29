@@ -90,8 +90,8 @@ export default function OQueRecebe() {
 
       <img
         src="img/oraculo.jpg"
-        alt="Oráculo das Chaves Ascensionais"
-        className="block w-full max-w-[360px] mx-auto h-auto rounded-md border border-[color:var(--border)] shadow-[var(--card-shadow)] mb-6"
+        alt="As cartas do Oráculo das Chaves Ascensionais"
+        className="block w-full max-w-[560px] mx-auto h-auto mb-6"
       />
       <div className="card">
         <Eyebrow>Bônus de entrada</Eyebrow>
