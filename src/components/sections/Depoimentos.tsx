@@ -6,11 +6,13 @@ import Cta from "../ui/Cta";
 const depoimentos: { nome: string; texto: string; avatar?: string }[] = [
   {
     nome: "Sarah",
+    avatar: "img/avatar_sarah.png",
     texto:
       "O que mais mudou foi a autorresponsabilidade e a autonomia — conseguir resolver as coisas por mim mesma e parar com a dependência emocional, com a carência. Eu me sentia muito presa, aprisionada, naquele 'conforto desconfortável', e não conseguia enxergar. Depois consegui me libertar disso e isso mudou vários aspectos: vida amorosa, profissional. Hoje sinto que posso fazer minhas escolhas porque banco aquilo que escolho.",
   },
   {
     nome: "Anna Rachel",
+    avatar: "img/avatar_anna_rachel.jpg",
     texto:
       "Esse curso de libertação me libertou de uma relação de 15 anos tóxica e mal resolvida. Isso mudou tudo, amorosamente falando, na minha vida. A Durga me libertou da crença de ser perfeitinha, bonitinha e princesinha. Eu não preciso ser assim, eu posso ser do jeito que eu sou.",
   },
@@ -28,6 +30,7 @@ const depoimentos: { nome: string; texto: string; avatar?: string }[] = [
   },
   {
     nome: "Maura",
+    avatar: "img/avatar_maura.jpg",
     texto:
       "Eu era uma pessoa atormentada, uma pessoa triste, uma pessoa que tinha medo de tudo, era muito contida, muito oprimida. E o trabalho foi me libertando. Eu fui experimentando um jeito de ser que eu nunca tinha experimentado, de poder ser do meu jeito, de poder falar o que eu sinto. Hoje eu me sinto muito leve.",
   },

@@ -9,8 +9,8 @@ export default function Prova() {
         Quem está te falando isso já foi você.
       </h2>
       <img
-        src="img/casal_2.jpg"
-        alt="Durga e o companheiro"
+        src="img/durga_solo.jpg"
+        alt="Durga, hoje"
         className="block w-full h-auto rounded-md border border-[color:var(--border)] shadow-[var(--card-shadow)] mt-2 mb-7"
       />
       <p className="mb-[18px]">Eu não aprendi isso em livro. Eu aprendi caída no chão.</p>

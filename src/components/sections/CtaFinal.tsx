@@ -18,8 +18,8 @@ export default function CtaFinal() {
           className="mx-auto h-auto w-[180px] sm:w-[200px] mb-7"
         />
         <img
-          src="img/casal_3.jpg"
-          alt="Durga e o companheiro, hoje"
+          src="img/durga_solo.jpg"
+          alt="Durga, hoje"
           className="block w-full h-auto rounded-md border border-bronze shadow-card mt-2 mb-7"
         />
         <h2 className="text-[clamp(28px,6vw,40px)] mb-[22px]">
